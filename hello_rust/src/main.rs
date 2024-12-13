@@ -1,12 +1,6 @@
-use std::io;
+mod guess_the_number;
+//use guess_the_number::guess_game;
+
 fn main() {
-    println!("Guess the number");
-    println!("Please input your guess");
-    let mut guess = String::new();
-    io::stdin()
-        .read_line(&mut guess)
-        .expect("Failed to read the line");
-    let age = 5;
-    let b = age;
-    println!("{}", b);
+    //guess_game();
 }
