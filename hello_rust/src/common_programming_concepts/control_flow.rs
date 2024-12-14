@@ -41,3 +41,56 @@ pub fn functions() {
         println!("The number is 5 and the number is {}", user_input_number);
     }
 }
+
+pub fn loops() {
+    /*
+    //normal loop
+    let mut number = 0;
+     loop {
+        println!("{}", number);
+        number += 1;
+        if number == 5 {
+            break;
+        }
+    }*/
+
+    /*
+    //nested loop
+    let mut number = 0;
+    let highest_number = loop {
+        number += 1;
+        loop {
+            number += 1;
+            if number == 5 {
+                break;
+            }
+        }
+        break number;
+    };
+    println!("{}", highest_number);
+    */
+    /*
+        let my_array = [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+        ];
+
+        for day in my_array {
+            println!("{}", day);
+        }
+    */
+    /*
+    for num in (1..6).rev() {
+        println!("{}", num);
+    }
+
+    for number in 1..100 {
+    println!("{}", number);
+    }
+    */
+}
