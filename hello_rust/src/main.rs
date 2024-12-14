@@ -14,7 +14,7 @@ mod understanding_ownership;
 //use structs::methods;
 //use enums_and_pattern_matching::enums_in_rust::enums;
 //use enums_and_pattern_matching::pattern_matching;
-use collections::common_collections::collection;
+//use collections::common_collections;
 fn main() {
     //guess_game();
     //variables();
@@ -26,5 +26,6 @@ fn main() {
     //   methods::methods();
     //   enums();
     //pattern_matching::matching();
-    collection();
+    //common_collections::vector_collections();
+    //common_collections::string_collections();
 }
