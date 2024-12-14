@@ -4,13 +4,13 @@ mod understanding_ownership;
 //use guess_the_number::guess_game;
 //use common_programming_concepts::variables_mutability::variables;
 //use common_programming_concepts::control_flow::functions;
-//use understanding_ownership::ownership::ownership;
 //use common_programming_concepts::control_flow::loops;
+use understanding_ownership::ownership;
 
 fn main() {
     //guess_game();
     //variables();
     //   functions();
-    //    ownership();
     //   loops();
+    ownership::ownership_fun();
 }
