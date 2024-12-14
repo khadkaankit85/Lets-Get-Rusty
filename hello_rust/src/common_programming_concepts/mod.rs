@@ -1,2 +1,2 @@
-pub mod functions_in_rust;
+pub mod control_flow;
 pub mod variables_mutability;
