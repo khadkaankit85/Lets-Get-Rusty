@@ -2,6 +2,7 @@ mod collections;
 mod common_programming_concepts;
 mod enums_and_pattern_matching;
 mod guess_the_number;
+mod problems;
 mod structs;
 mod understanding_ownership;
 //use guess_the_number::guess_game;
@@ -28,4 +29,6 @@ fn main() {
     //pattern_matching::matching();
     //common_collections::vector_collections();
     //common_collections::string_collections();
+    problems::find_median_in_list::find();
+    problems::employee_management::manage();
 }
