@@ -11,7 +11,7 @@ mod understanding_ownership;
 //use understanding_ownership::slices;
 //use structs::structs::structs;
 //use structs::methods;
-use enums_and_pattern_matching::enums_in_rust::enums;
+//use enums_and_pattern_matching::enums_in_rust::enums;
 fn main() {
     //guess_game();
     //variables();
@@ -21,5 +21,5 @@ fn main() {
     //slices::slices_in_rust();
     //structs();
     //   methods::methods();
-    enums();
+    //   enums();
 }

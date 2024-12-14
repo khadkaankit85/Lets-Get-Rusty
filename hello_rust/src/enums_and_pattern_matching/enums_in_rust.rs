@@ -36,6 +36,7 @@ enum Human {
     Single(bool, bool),
     Mingle(bool, bool),
 }
+#[allow(dead_code)]
 pub fn enums() {
     let human1 = Human::Single(true, true);
     println!("{:?}", human1);
