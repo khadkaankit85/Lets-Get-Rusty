@@ -1,0 +1,1 @@
+/home/khadka_angkit/Computer\ Programming/Rust/minigrep/target/debug/minigrep: /home/khadka_angkit/Computer\ Programming/Rust/minigrep/src/lib.rs /home/khadka_angkit/Computer\ Programming/Rust/minigrep/src/main.rs
