@@ -1,3 +1,4 @@
+mod closures_in_rust;
 mod collections;
 mod common_programming_concepts;
 mod enums_and_pattern_matching;
@@ -17,7 +18,8 @@ mod understanding_ownership;
 //use enums_and_pattern_matching::enums_in_rust::enums;
 //use enums_and_pattern_matching::pattern_matching;
 //use collections::common_collections;
-use generics::generics::generics;
+//use generics::generics::generics;
+use closures_in_rust::closures;
 fn main() {
     //guess_game();
     //variables();
@@ -33,5 +35,6 @@ fn main() {
     //common_collections::string_collections();
     //problems::find_median_in_list::find();
     //problems::employee_management::manage();
-    generics();
+    //    generics();
+    closures::closures();
 }

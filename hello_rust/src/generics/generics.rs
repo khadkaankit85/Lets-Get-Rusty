@@ -50,12 +50,14 @@ pub fn generics() {
     println!("{largest_char} is the largest char and {largest_i32} is the largest integer");
 }
 */
+#[allow(dead_code)]
 
 struct Point<T> {
     x: T,
     y: T,
 }
 
+#[allow(dead_code)]
 pub fn generics() {
     let integer = Point { x: 5, y: 2 };
     let floats = Point { x: 1.2, y: 3.4 };
