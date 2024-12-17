@@ -1,12 +1,15 @@
 #[derive(Debug, PartialEq, Clone, Copy)]
+#[allow(dead_code)]
 enum ShirtColor {
     Red,
     Blue,
 }
+#[allow(dead_code)]
 struct Inventory {
     shirts: Vec<ShirtColor>,
 }
 
+#[allow(dead_code)]
 impl Inventory {
     fn giveaway(&self, user_preference: Option<ShirtColor>) -> ShirtColor {
         user_preference.unwrap_or_else(|| self.most_stocked())
@@ -29,6 +32,7 @@ impl Inventory {
     }
 }
 
+#[allow(dead_code)]
 pub fn closures() {
     let store = Inventory {
         shirts: vec![ShirtColor::Blue, ShirtColor::Red, ShirtColor::Blue],

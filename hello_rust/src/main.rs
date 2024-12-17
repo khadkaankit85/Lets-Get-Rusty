@@ -19,7 +19,8 @@ mod understanding_ownership;
 //use enums_and_pattern_matching::pattern_matching;
 //use collections::common_collections;
 //use generics::generics::generics;
-use closures_in_rust::closures;
+//use closures_in_rust::closures;
+use closures_in_rust::anonymous_closure;
 fn main() {
     //guess_game();
     //variables();
@@ -36,5 +37,6 @@ fn main() {
     //problems::find_median_in_list::find();
     //problems::employee_management::manage();
     //    generics();
-    closures::closures();
+    //closures::closures();
+    anonymous_closure::anonymous();
 }
